@@ -7,7 +7,7 @@ This is supposed to be an open source implementation of the slither server built
 ## Install
 You can get the latest stable release from the [releases](https://github.com/iiegor/slither/releases) page. Once you've downloaded it, you are ready to run the following commands:
 ```sh
-$ cd slither
+$ cd "C:\Directory\To\Slither-Private"
 $ npm install
 ```
 Obviously, if you want to try the latest version, you can clone the master branch but can have bugs because it's a development branch, so don't use it for production.
@@ -17,7 +17,7 @@ The server depends on [Node.js](http://nodejs.org/), [npm](http://npmjs.org/) an
 ## Run
 Execute this command to start the server.
 ```sh
-$ script/run
+$ npm start
 ```
 If you want to install a plugin, add it to ``packageDependencies`` in the package.json with the respective version.
 
